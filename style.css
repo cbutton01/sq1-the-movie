@@ -5,7 +5,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	background: url("img/curtains.jpg") no-repeat;
 	background-size: contain;
 }
 .container {
@@ -69,7 +68,4 @@ h3 {
 .char-name {
 	text-transform: uppercase;
 	font-weight: bold;
-}
-iframe {
-
 }
