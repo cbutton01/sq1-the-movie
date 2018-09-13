@@ -1,7 +1,7 @@
 var canvas = document.getElementById("the-canvas");
 var canvastCtx = canvas.getContext("2d");
-var screenW = window.innerWidth;
-var screenH = window.innerHeight;
+var screenW = canvas.width = window.innerWidth;
+var screenH = canvas.height = window.innerHeight;
 
 window.onload = function (){
     drawRect(0,0, screenW, screenH, 'black');
