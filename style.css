@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background: url("img/curtains.jpg") no-repeat;
+	background-size: contain;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 17vw auto 0;
+}
+h1 {
+	font-size: 32px;
+	text-align: center;
+	font-family: Papyrus, fantasy;
+	margin: 0;
+}
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 0 5px;
+}
+.gold {
+	color: #D4AF37;
+}
+.cast {
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.quarter {
+	width: 23%;
+	margin: auto;
+	padding: 10px;
+	border: 2px solid #D4AF37;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #D4AF37;
+	background: #FCFBE3;
+
+}
+.character {
+	text-align: center;
+	margin-bottom: 25px
+}
+.photo {
+	margin-bottom: 10px;
+}
+.photo img {
+	max-width: 250px;
+	border-radius: 50%;
+	height: 200px;
+}
+.celeb-name {
+	font-size: 24px;
+	margin-bottom: 6px;
+	font-family: Papyrus, fantasy;
+}
+.as {
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.char-name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+iframe {
+
+}
